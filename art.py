@@ -32,7 +32,7 @@ else:
 logging.basicConfig(level=logging.INFO)
 
 # Set your TVs local IP address. Highly recommend using a static IP address for your TV.
-tv = SamsungTVWS('192.168.0.9')
+tv = SamsungTVWS('192.168.4.42')
 
 # Check if TV is reachable in debug mode
 if args.debug:
